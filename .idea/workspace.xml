@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ca09ab-186c-4a3a-af07-39dd88b2dbbc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJuliet_lili.iml" afterPath="$PROJECT_DIR$/myJuliet_lili.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/demo/TestLambda.java" afterPath="$PROJECT_DIR$/src/test/demo/TestLambda.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -808,12 +805,20 @@
       <workItem from="1500811584313" duration="1991000" />
       <workItem from="1501413879374" duration="1728000" />
       <workItem from="1501986062617" duration="7808000" />
-      <workItem from="1502003470278" duration="188000" />
+      <workItem from="1502003470278" duration="219000" />
     </task>
+    <task id="LOCAL-00001" summary="merge---">
+      <created>1502003682900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502003682900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15477000" />
+    <option name="totallyTimeSpent" value="15508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -861,6 +866,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="merge---" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge---" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
