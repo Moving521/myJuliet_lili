@@ -45,6 +45,9 @@ public class TestLambda {
         User user3=new  User("LiWu",30,"上海");
         User user4=new  User("LILI",40,"上海");
         User user5=new  User("Lucy",55,"北京");
+        User user6=new  User("Lucy4",15,"天津");
+        User user7=new  User("Lucy5",50,"北京");
+
         List<User>  userList = Arrays.asList(user1, user2,user3, user4, user5);
         Predicate<User> lte40 = (n) -> n.getAge()>=40;
 //        userList.stream().filter(lte40).forEach(n->System.out.println(n.getName()));
