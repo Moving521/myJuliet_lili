@@ -17,7 +17,7 @@ public class UserInterfaceImpl implements UserInterface {
     @Override
     public String see() {
 
-        return "看到一群美女";
+        return "看到一群||美女";
     }
 
     @Override
