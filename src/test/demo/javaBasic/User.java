@@ -1,3 +1,5 @@
+package javaBasic;
+
 /**
  * Created by MrSpin on 2017/7/23.
  */
