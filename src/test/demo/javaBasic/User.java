@@ -3,17 +3,24 @@
  */
 public class User {
 
-    private  String name;
-    private  int age;
-    private String city;
+    //成员变量
+    private  String name;//String类型
 
+    private  int age;//Integer类型
+
+    private String city;
+    //构造方法 无成员变量
     public User() {
     }
-
+//    构造方法
     public User(String name, int age, String city) {
         this.name = name;
         this.age = age;
         this.city = city;
+    }
+    //
+    public void sayHello(){
+        System.out.print("hello 我是 "+this.name);
     }
 
     public String getName() {
