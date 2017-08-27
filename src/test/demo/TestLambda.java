@@ -51,18 +51,18 @@ public class TestLambda {
         User user7=new  User("Lucy5",50,"北京");
 
         List<User>  userList = Arrays.asList(user1, user2,user3, user4, user5);
-        Predicate<User> lte40 = (n) -> n.getAge()>=40;
+//        Predicate<User> lte40 = (n) -> n.getAge()>=40;
 //        userList.stream().filter(lte40).forEach(n->System.out.println(n.getName()));
 
-        List<User>  newUserList=  userList.stream().filter(lte40).collect(Collectors.toList());
-        for (User user:
-             newUserList) {
-            System.out.println(user.getName()+"\t"+user.getAge());
-        }
+//        List<User>  newUserList=  userList.stream().filter(lte40).collect(Collectors.toList());
+//        for (User user:
+//             newUserList) {
+//            System.out.println(user.getName()+"\t"+user.getAge());
+//        }
 // 用所有不同的数字创建一个正方形列表
-        List<Integer> numbers = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
-        List<Integer> distinct = numbers.stream().map( i -> i*i).distinct().collect(Collectors.toList());
-        System.out.printf("Original List : %s,  Square Without duplicates : %s %n", numbers, distinct);
+//        List<Integer> numbers = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
+//        List<Integer> distinct = numbers.stream().map( i -> i*i).distinct().collect(Collectors.toList());
+//        System.out.printf("Original List : %s,  Square Without duplicates : %s %n", numbers, distinct);
     }
 
 }
