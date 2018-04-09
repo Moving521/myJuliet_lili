@@ -12,13 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by MrSpin on 2017/8/6.
  */
 @RestController
-@ComponentScan(basePackages ={"com.neo"})
+@ComponentScan(basePackages = {"com.neo"})
 @EnableAutoConfiguration
 public class Application {
 
 
     @Autowired
     UserInfoService userInfoService;
+
     //注入Simple
 
     @RequestMapping("/hello")
