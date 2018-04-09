@@ -18,7 +18,8 @@ public class Application {
 
 
     @Autowired
-    UserInfoService userInfoService;//注入Simple
+    UserInfoService userInfoService;
+    //注入Simple
 
     @RequestMapping("/hello")
     String home() {
